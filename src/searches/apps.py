@@ -2,4 +2,5 @@ from django.apps import AppConfig
 
 
 class SearchesConfig(AppConfig):
-    name = 'searches'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "searches"

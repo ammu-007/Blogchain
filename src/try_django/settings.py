@@ -25,7 +25,7 @@ SECRET_KEY = "2ms@3*tiekt!x$(^#fhcz4b@__wmcj8$&i22r8e!hpu2gv@oec"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1"]
 
 
 # Application definition
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     "searches",
     "BTC",
     "chat",
-    # "channels",
+    "channels",
 ]
 
 MIDDLEWARE = [
